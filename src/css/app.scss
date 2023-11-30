@@ -1,0 +1,57 @@
+// Uncomment to override the default breakpoints
+//$breakpoint-xs: 599px
+//$breakpoint-sm: 1023px
+//$breakpoint-md: 1439px
+//$breakpoint-lg: 1919px
+
+@import './quasar.variables.scss';
+
+$container-padding: 20px;
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: $breakpoint-sm-min) {
+
+  .container,
+  .container-sm {
+    max-width: $breakpoint-xs - $container-padding;
+  }
+}
+
+@media (min-width: $breakpoint-md-min) {
+
+  .container,
+  .container-sm,
+  .container-md {
+    max-width: $breakpoint-sm - $container-padding;
+  }
+}
+
+@media (min-width: $breakpoint-lg-min) {
+
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg {
+    max-width: $breakpoint-md - $container-padding;
+  }
+}
+
+@media (min-width: $breakpoint-xl-min) {
+
+  .container,
+  .container-sm,
+  .container-md,
+  .container-lg,
+  .container-xl {
+    max-width: $breakpoint-lg - $container-padding;
+  }
+}

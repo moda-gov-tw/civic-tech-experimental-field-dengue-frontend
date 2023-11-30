@@ -1,0 +1,42 @@
+{
+  "name": "f-dengue",
+  "version": "0.0.1",
+  "description": "Dengue",
+  "productName": "Dengue",
+  "author": "tnstiger <tnstiger@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev --host",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "@vueuse/core": "^10.4.1",
+    "axios": "^1.2.1",
+    "browser-image-resizer": "^2.4.1",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "firebase": "^10.4.0",
+    "pinia": "^2.0.11",
+    "pinia-plugin-persist": "^1.0.0",
+    "pinia-plugin-persistedstate": "^3.2.0",
+    "quasar": "^2.6.0",
+    "transform-json-to-html": "^1.1.1",
+    "vue": "^3.0.0",
+    "vue-json-excel3": "^1.0.18",
+    "vue-qrcode-reader": "^5.3.6",
+    "vue-router": "^4.0.0",
+    "vue-signature-pad": "^3.0.2"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.3.0",
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.14"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
